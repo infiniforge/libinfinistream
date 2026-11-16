@@ -44,7 +44,7 @@ Tests exercise independent cursors, EOF/short reads, cancellation, errors, owner
 large sparse positional access, signature ambiguity, bounded probing, replay,
 metadata negotiation/capability loss, cycles, cardinality and push backpressure.
 This JVM artifact supports JVM hosts; native iOS bindings are not provided.
-Original-code licensing is pending owner selection: see LICENSE.md.
+Original code is licensed under MIT; third-party components retain their own terms. See LICENSE.md.
 
 Sequential JVM wrappers normalize capabilities/ownership from their demonstrated interfaces, so supplied hints cannot accidentally advertise positional writes or seeking. File factories advertise reopening; individual open file handles advertise their own read/positional capabilities. All consumer/source errors remain errors, including invalid EOF values.
 
